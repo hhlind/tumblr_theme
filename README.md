@@ -5,8 +5,14 @@ tumblr_theme
 
 This is a very simple Tumblr theme. Feel free to use it in your own projects.
 
-NOTE!
-This theme uses CSS3 Flexbox -model and it is supported only in latest browsers.
+###Following tumblr post types are supported:
+
+ - Text post
+ - Photo post
+ - Link post
+
+
+###This theme uses CSS3 Flexbox -model and it is supported only in latest browsers.
 
  - Chrome 21+
  - Safari 6.1+
