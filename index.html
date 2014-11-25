@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="{block:English}en{/block:English}{block:French}fr{/block:French}{block:German}de{/block:German}{block:Japanese}ja{/block:Japanese}{block:Italian}it{/block:Italian}{block:Spanish}es{/block:Spanish}{block:Polish}pl{/block:Polish}">
+<head>
+    <script src="//use.typekit.net/iwi6kxn.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{Title}{block:PostSummary} &mdash; {PostSummary}{/block:PostSummary}</title>
+	{block:Description}<meta name="description" content="{MetaDescription}">{/block:Description}
+
+	<link rel="apple-touch-icon" href="{PortraitURL-128}">
+	<link rel="shortcut icon" href="{Favicon}">
+	<link rel="alternate" type="application/rss+xml" href="{RSS}">
+	<!--Normalize 3.0.0 CSS-->
+	<link rel="stylesheet" href="http://static.tumblr.com/cqczc5x/FJTn2lpnz/normalize.css" type="text/css" media="all">
+
+<!--***********************************************************************
+	                    STYLE SHEET STARTS HERE
+	  COLOR SCHEME http://coolors.co/fd8f04-185b63-17181f-000000-e84127
+************************************************************************-->
+    <style type="text/css">
+    * {box-sizing: border-box; margin:0; padding: 0;}
+		img, video, object, embed {
+			max-width: 100%;
+			height: auto !important;
+		}
+		 {margin:0;}
+		/*Tumblr inherited */
+		iframe#tumblr_controls {}
+		.search_query {}
+		.read_more_container a {}
+		
+		body {font-family: 'Merriweather', serif; color: #17181F;}
+		.ribbon {
+              letter-spacing: 1px;
+              position: absolute;
+              background: white;
+              left: -90px;
+              text-align: center;
+              top: 50px;
+              width: 300px;
+              border-top: 2px solid #000;
+              border-bottom: 2px solid #000;
+              padding: 10px 5px;
+              -webkit-transform: rotate(-45deg); /* Ch, Saf  */
+                 -moz-transform: rotate(-45deg); /* Fx <16 */
+                  -ms-transform: rotate(-45deg); /* IE 9 */
+                   -o-transform: rotate(-45deg); /* Op <12.1 */
+                      transform: rotate(-45deg);
+              z-index: 1;
+}
+
+/********************** HEADER *******************************************/
+
+        .header {
+            /*display: -ms-Flexbox;
+	                 -ms-box-orient: horizontal;
+            
+            display: -webkit-box;  
+            display: -moz-box;     
+            display: -ms-flexbox;  
+            display: -webkit-flex; 
+            display: flex;
+            
+                     -webkit-flex-flow: row wrap;
+	                 -moz-flex-flow: row wrap;
+	                 -ms-flex-flow: row wrap;
+	                 flex-flow: row wrap;
+            
+            justify-content: space-between;
+            align-items: baseline;
+            
+            margin: 5em  auto 10em;
+            font-family: "brandon-grotesque",sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2em;*/
+            max-width: 90em;
+            margin: 0em auto 7em;
+        }
+        
+            .header-logo {
+               
+            }
+            
+                .header-logo-a {
+                   
+                }
+                
+                .header-logo-h1 {
+                    
+                }
+                
+                .header-logo-image {}
+                
+                .header-description {
+                    font: 300 24px "brandon-grotesque",sans-serif;
+                    
+                }
+                
+            .header-nav {
+                border-bottom: 1px solid #17181f;
+               
+            }
+            
+                .header-nav-ul {
+                     display: -ms-Flexbox;
+	                 -ms-box-orient: horizontal;
+            
+                    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6 */
+                    display: -moz-box;     /* OLD - Firefox 19- (buggy but mostly works) */
+                    display: -ms-flexbox;  /* TWEENER - IE 10 */
+                    display: -webkit-flex; /* NEW - Chrome */
+                    display: flex;
+            
+                     -webkit-flex-flow: row wrap;
+	                 -moz-flex-flow: row wrap;
+	                 -ms-flex-flow: row wrap;
+	                 flex-flow: row wrap;
+            
+            justify-content: flex-end;
+            align-items: baseline;
+            max-width: 90em;
+            margin: auto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 1.5px;
+                }
+                
+                    .header-nav-ul-li {
+                        display: inline;
+                        list-style: none;
+                        
+                        padding: .5em;
+                        margin: 1em;
+                        
+                    }
+                    
+                        .header-nav-ul-li-a {
+                            text-decoration: none;
+                            color: black;
+                            
+                        }
+
+/********************** SECTION ******************************************/
+ 
+
+
+/********************** INDEX PAGE ***************************************/
+            .index-page-section {
+                display: -ms-Flexbox;
+                -ms-box-orient: horizontal;
+            
+                display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6 */
+                display: -moz-box;     /* OLD - Firefox 19- (buggy but mostly works) */
+                display: -ms-flexbox;  /* TWEENER - IE 10 */
+                display: -webkit-flex; /* NEW - Chrome */
+                display: flex;
+            
+                         -webkit-flex-flow: row wrap;
+	                     -moz-flex-flow: row wrap;
+	                     -ms-flex-flow: row wrap;
+	                     flex-flow: row wrap;
+	                     
+	            -webkit-justify-content: center;
+            	-moz-justify-content: center;
+            	-ms-justify-content: center;
+            	justify-content: center;
+
+                align-content: space-between;
+                
+                align-items: flex-start;
+                max-width: 90em;
+                margin: auto;
+            }
+
+                .permalink {
+                    text-decoration:none;
+                    color:black;
+                    }
+                    
+                        .permalink-header {
+                            font-family: "brandon-grotesque",sans-serif;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 2em;
+                            line-height: 1;
+                            padding: 1em;
+                            background-color: #17181F;
+                            width: 10em;
+                            min-height: 5em;
+                            margin:1em 1em .1em 1em;
+                            color: #FFF;
+                        }
+                        
+                        .permalink-header:hover {
+                            background-color: #000000;
+                        }
+                        
+                        
+                        .permalink-header-link {
+                            font-family: "brandon-grotesque",sans-serif;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 2em;
+                            line-height: 1;
+                            padding: 1em;
+                            background-color: #185b63;
+                            width: 10em;
+                            min-height: 5em;
+                            margin:1em 1em .1em 1em;
+                            color: #FFF;
+                        }
+                            
+                            .permalink-header-span {
+                                font: 400 12px "brandon-grotesque",sans-serif;
+                                letter-spacing: 1px;
+                            }
+                
+                .index-page-section-article-ul {
+                    display: -ms-Flexbox;
+                    -ms-box-orient: horizontal;
+                    
+                    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6 */
+                    display: -moz-box;     /* OLD - Firefox 19- (buggy but mostly works) */
+                    display: -ms-flexbox;  /* TWEENER - IE 10 */
+                    display: -webkit-flex; /* NEW - Chrome */
+                    display: flex;
+                    
+                            -webkit-flex-flow: row wrap;
+	                        -moz-flex-flow: row wrap;
+	                        -ms-flex-flow: row wrap;
+	                        flex-flow: row wrap;
+                    
+                    justify-content: flex-end;
+                    margin: auto;
+                    width: 20em;
+                    list-style: none;
+                    
+                }
+                
+                    .index-page-section-article-ul-li {
+                        display: inline;
+                        border: 1px solid #e84127;
+                        padding: .625em;
+                        margin: .5em 0 .5em .5em;
+                    }
+                        
+                        .index-page-section-article-ul-li-a {
+                            text-decoration: none;
+                            color: #e84127;
+                            letter-spacing: 1px;
+                        }
+                        
+/********************** PERMALINK PAGE ***********************************/
+
+            .permalink-page-section {
+                max-width: 73em;
+                margin: auto;
+            }
+            
+                .permalink-page-article {
+                    max-width: 40em;
+                    margin: auto;
+                   
+                }
+                
+                    .permalink-page-article-header {
+                        font-family: "brandon-grotesque",sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 2em;
+                        line-height: 1;
+                    }
+                    
+                .permalink-page-article p {
+                    margin: 1em;
+                    line-height: 1.5;
+                    
+                }
+                
+                .permalink-page-article p img  {
+                    
+                }
+                
+/********************** PAGINATION ****************************************/
+
+            .pagination {
+                text-align: center;
+                margin: 2em auto;
+                border: 1px solid black;
+                max-width: 60em;
+                
+            }
+            
+                .pagination a {
+                    text-decoration: none;
+                    color: black;
+                    font: 300 21px "merriweather", serif;
+                    margin: 1em;
+                }
+                
+                    .current-page {
+                        padding: 1em;
+                        color: red;
+                    }
+                
+/********************** FOOTER ********************************************/
+            
+            footer {
+                margin: 5em auto 5em;
+                text-align: right;
+            }    
+            
+/********************** ANIMATIONS ****************************************/
+
+            @keyframes move {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            @-webkit-keyframes move {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            .move {
+                animation: move 2s .1s 1 normal backwards;
+                -webkit-animation: move 2s .1s 1 normal backwards;
+            }
+            .move {
+                
+            }
+            
+/********************** MEDIA QUERIES *************************************/
+                
+@media screen and (max-width: 32em) {
+.header-nav-ul {
+            -webkit-flex-flow: column wrap;
+	                 -moz-flex-flow: column wrap;
+	                 -ms-flex-flow: column wrap;
+	                 flex-flow: column wrap;
+            justify-content: center;
+}
+
+.permalink-header, 
+.permalink-header-link
+                        {
+                            padding: 1em;
+                            width: 90vw;
+                            min-height: 5em;
+                            margin: 1em auto 0;
+                            color: #FFF;
+                        }
+                        
+.index-page-section-article-ul {
+    width: 90vw;
+}
+}
+
+	</style>
+	
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="http://static.tumblr.com/wwquqls/rrgnfk8hu/jquery-2.1.1.min.js"></script>
+<script src="http://static.tumblr.com/wwquqls/E0Ynfk9pm/theme-script.js"></script>
+</head>
+<!-------------------------------------------------------------------------
+	                    BODY
+-------------------------------------------------------------------------->
+<body>
+
+<!-------------------------------------------------------------------------
+	                    HEADER = LOGO + NAVIGATION
+-------------------------------------------------------------------------->
+	<header class="header">
+	    <div class="header-logo">
+    		<a href="/" class="header-logo-a">
+    		   
+    		</a>
+    		{block:Description}
+    		    <p class="header-description">{Description}</p>
+    		{/block:Description}
+		</div>
+		<nav class="header-nav">
+		    <ul class="header-nav-ul">
+		    
+		        {block:HasPages}
+		            {block:Pages}
+		            <li class="header-nav-ul-li">
+			            <a href="{URL}" class="header-nav-ul-li-a">{Label}</a>
+			        </li>
+			        {/block:Pages}
+			    {/block:HasPages}
+			        <li class="header-nav-ul-li">
+			            <a href="/archive" class="header-nav-ul-li-a">Arkisto</a>
+			        </li>
+			    {block:AskEnabled}
+			        <li class="header-nav-ul-li">
+			            <a href="/ask" class="header-nav-ul-li-a">{AskLabel}</a>
+			        </li>
+			    {/block:AskEnabled}
+		        
+		    </ul>
+		<nav>
+	
+	</header>
+<!-------------------------------------------------------------------------
+	                    SECTION
+-------------------------------------------------------------------------->
+	<section class="content">
+<!-------------------------------------------------------------------------
+	                    INDEX PAGE
+-------------------------------------------------------------------------->
+    {block:IndexPage}
+    <section class="index-page-section move">
+		{block:Posts}
+		<article class="index-page-section-article {TagsAsClasses}">
+		
+			{block:Text}
+				{block:Title}
+				    <a href="{Permalink}" class="permalink">
+				        <h3 class="permalink-header">{Title}<br><span class="permalink-header-span">{block:Date}{DayOfMonth}.{MonthNumber}.{Year}{/block:Date}</span></h3>
+				    </a>
+				{/block:Title}
+			{/block:Text}
+			
+			{block:Link}
+                        <a href="{URL}" class="permalink" {Target}>
+                            <h3 class="permalink-header-link">{Name}<br><span class="permalink-header-span">{block:Date}{DayOfMonth}.{MonthNumber}.{Year}{/block:Date}</span></h3>
+                        </a>
+            {/block:Link}
+            
+            {block:Photo}
+                    <a href="{Permalink}" class="permalink">
+				        <img class="permalink-header" src="{PhotoURL-500}" alt="{PhotoAlt}" />
+				        
+				    </a>
+            {/block:Photo}
+
+			{block:HasTags}
+                    <ul class="index-page-section-article-ul">
+                        {block:Tags}
+                            <li class="index-page-section-article-ul-li">
+                                <a href="{TagURL}" class="index-page-section-article-ul-li-a">{Tag}</a>
+                            </li>
+                        {/block:Tags}
+                    </ul>
+            {/block:HasTags}
+		</article>
+		{/block:Posts}
+	</section>
+    {/block:IndexPage}
+<!-------------------------------------------------------------------------
+	                    PERMALINK PAGE
+-------------------------------------------------------------------------->
+    {block:PermalinkPage}
+    <section class="permalink-page-section">
+        {block:Posts}
+        
+			{block:Text}
+			<article class="permalink-page-article">
+				{block:Title}<h3 class="permalink-page-article-header">{Title}</h3>{/block:Title}
+				{body}
+			</article>
+			{/block:Text}
+			
+			{block:Photo}
+			<article class="permalink-page-article">
+			    <figure>
+			    <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+                {block:Caption}
+                    <figcaption>{Caption}</figcaption>
+                {/block:Caption}
+                </figure>
+			</article>
+			{/block:Photo}
+			
+    	{/block:Posts}
+	</section>
+    {/block:PermalinkPage}
+<!-------------------------------------------------------------------------
+	                    PAGINATION
+-------------------------------------------------------------------------->
+
+		{block:PermalinkPagination}
+		<div class="pagination">
+			{block:PreviousPost}<a class="prev"href="{PreviousPost}">Edellinen</a>{/block:PreviousPost}
+			{block:NextPost}<a class="next" href="{NextPost}">Seuraava</a>{/block:NextPost}
+		</div>
+		{/block:PermalinkPagination}
+
+		{block:Pagination}
+		<div class="pagination">
+			{block:PreviousPage}<a class="prev" href="{PreviousPage}">Uudet</a>{/block:PreviousPage}
+
+			{block:JumpPagination length="1"}
+				{block:CurrentPage}<span class="current-page">{PageNumber}</span>{/block:CurrentPage}
+				{block:JumpPage}<a class="jump-page" href="{URL}">{PageNumber}</a>{/block:JumpPage}
+			{/block:JumpPagination}
+
+			{block:NextPage}<a class="next" href="{NextPage}">Vanhemmat</a>{/block:NextPage}
+		</div>
+		{/block:Pagination}
+		
+	</section><!--close content-->
+	<footer>
+	    THIS IS FOOTER
+	</footer>
+</body>
+</html>
