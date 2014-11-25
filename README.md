@@ -22,3 +22,5 @@ This is a very simple Tumblr theme. Feel free to use it in your own projects.
  - Android 2.1+
  - iOS 7.1+
  - WindowsPhone 11+
+
+###You may want to add normalisze.css into theme assets.
