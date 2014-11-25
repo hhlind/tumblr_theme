@@ -1,6 +1,8 @@
 tumblr_theme
 ============
 
+#STATUS: ongoing
+
 This is a very simple Tumblr theme. Feel free to use it in your own projects.
 
 NOTE!
